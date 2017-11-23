@@ -1,6 +1,9 @@
 ## nginx 安装与配置
 
 ``` bash
+# 目录
+cd usr/src
+
 # 下载
 wget -c http://nginx.org/download/nginx-1.12.2.tar.gz
 
@@ -18,6 +21,19 @@ make
 make install
 
 ```
+
+## 全局环境变量
+
+``` bash
+# 修改文件
+vim /root/.bash_profile
+
+# 追加
+:/usr/local/nginx/sbin
+* 类似于PATH=$PATH:$HOME/bin:/usr/local/nginx/sbin
+
+```
+
 
 ## 安装错误修复
 
