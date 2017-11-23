@@ -1,4 +1,4 @@
-## nginx 安装与配置
+## nginx 安装
 
 ``` bash
 # 目录
@@ -38,9 +38,24 @@ vim /root/.bash_profile
 
 ``` bash
 # the HTTP rewrite module requires the PCRE library.
- yum install -y pcre-devel
+yum install -y pcre-devel
 
 # the HTTP gzip module requires the zlib library.
- yum install -y zlib-devel
+yum install -y zlib-devel
+
+```
+
+## 命令
+
+```bash
+# 启动
+nginx
+
+# 停止
+nginx -s stop
+nginx -s quit
+
+# 重启
+nginx -s reload
 
 ```
