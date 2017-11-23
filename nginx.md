@@ -28,9 +28,8 @@ make install
 # 修改文件
 vim /root/.bash_profile
 
-# 追加
+# 追加（结果类似于 PATH=$PATH:$HOME/bin:/usr/local/nginx/sbin）
 :/usr/local/nginx/sbin
-* 类似于PATH=$PATH:$HOME/bin:/usr/local/nginx/sbin
 
 ```
 
