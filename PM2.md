@@ -30,4 +30,6 @@ pm2 start yarn -- start
 pm2 start yarn -- run <scriptname>
 pm2 start <某种方式> --watch
 
+pm2 start npm --watch --name <taskname> -- run start
+
 ```
