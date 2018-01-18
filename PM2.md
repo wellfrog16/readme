@@ -18,4 +18,16 @@ pm2 start app.js --name serverone   # 启动一个进程并把它命名为 serve
 pm2 restart servername              # 重启指定的进程
 pm2 stop servername                 # 停止一个进程
 
+pm2 start <js文件路径>.js
+pm2 start <json描述文件路径>.json
+pm2 start <python文件路径>.py --interpreter python
+pm2 start <sh文件路径>.sh --interpreter bash
+pm2 start ./node_modules/<某模块名称>/<模块主文件路径>.js
+pm2 start <某种方式> -- --param_name param_value
+pm2 start npm -- start
+pm2 start npm -- run <scriptname>
+pm2 start yarn -- start
+pm2 start yarn -- run <scriptname>
+pm2 start <某种方式> --watch
+
 ```
