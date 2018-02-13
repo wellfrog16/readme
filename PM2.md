@@ -26,6 +26,7 @@ pm2 start ./node_modules/<某模块名称>/<模块主文件路径>.js
 pm2 start <某种方式> -- --param_name param_value
 pm2 start npm -- start
 pm2 start npm -- run <scriptname>
+pm2 start npm --name api -- run dev
 pm2 start yarn -- start
 pm2 start yarn -- run <scriptname>
 pm2 start <某种方式> --watch
