@@ -11,8 +11,11 @@ git status
 # 放弃修改
 git checkout filepath
 
-# 跳转到指定提交
+# 跳转到指定提交，回复上一次的commit（不保留最后一次的代码）
 git reset --hard id
+
+# 撤销上一次commit，保留修改
+git reset --soft HEAD^
 
 # 回滚到指定提交
 git revert id
