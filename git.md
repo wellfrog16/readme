@@ -26,6 +26,9 @@ git diff dev
 # 子仓库
 git subtree push --prefix=dist origin gh-pages
 
+# 清理不存在的远程目录
+git remote prune origin
+
 git rm -rf .
 
 ```
