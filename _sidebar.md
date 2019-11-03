@@ -2,7 +2,7 @@
 - [CentOS](/CentOS)
 - [H5](/h5)
 - [NPM](/npm)
-- [PM2](/pm2)
+- [PM2](/PM2)
 - [Git](/git)
 - [YUM](/yum)
 - [其他](/other)
