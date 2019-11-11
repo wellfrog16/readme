@@ -32,6 +32,9 @@ git remote prune origin
 # 将多个commit合并为一条
 git merge --squash branchname
 
+# 补充commit数据（合并到上一条commit）
+git commit --amend
+
 git rm -rf .
 
 ```
