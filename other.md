@@ -25,3 +25,9 @@ https://github.com/ai/browserslist#queries
     ]
 }
 ```
+
+nvm 的淘宝镜像
+```
+node_mirror: https://npm.taobao.org/mirrors/node/
+npm_mirror: https://npm.taobao.org/mirrors/npm/
+```
